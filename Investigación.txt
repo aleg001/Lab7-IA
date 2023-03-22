@@ -1,0 +1,28 @@
+Principal Component Analysis (PCA)
+
+En general, PCA es una herramienta poderosa para el análisis de datos y puede ayudar a simplificar conjuntos de datos complejos, 
+haciéndolos más fáciles de entender y trabajar con ellos. Este consiste en reducir la dimensionalidad de un conjunto de datos al 
+encontrar un nuevo conjunto de variables, más pequeño que el conjunto de variables original, conserva la mayor parte de la información 
+de la muestra y es útil para la compresión y clasificación de datos.
+
+PCA emplea una transformacion lineal que se basa en preservar la mayor variación en los datos en una cantidad menor de dimensiones,
+cabe destacar que en cuanto mayor sea la varaiación en una característica más información llevara esta. La aplicación de esta cuenta 
+con los siguientes pasos:
+
+1. Construir matriz de covarianza
+2. Calcular los vectores propios de la matriz
+3. Reconstruir una gran fracción de varianza de los datos originales
+
+PCA es la herramienta más utilizada en el análisis exploratorio de datos y en el aprendizaje automático para modelos predictivos. Además,
+PCA es una técnica estadística no supervisada utilizada para examinar las interrelaciones entre un conjunto de variables. Cabe destacar 
+que este cuenta con ventajas y desventajas entre ellas se encuentran:
+
+-- Ventajas --
+1. Reducción de dimensionalidad
+2. Selección de característica
+3. Visualizacion de datos 
+
+-- Desventajas --
+1. Interpretación de los componenetes principales
+2. Escalado de datos 
+3. Pérdida de información
